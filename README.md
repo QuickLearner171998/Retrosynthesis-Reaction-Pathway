@@ -11,6 +11,10 @@ Also I found [this](https://github.com/kheyer/Retrosynthesis-Prediction) repo a 
 1) rdkit
 2) OpenNMT
 
+
+# Demo
+![demo](demo/demo.gif)
+
 # Running the web app
 
 1) Download the model in the ```Retrosynthesis-Reaction-Pathway``` directory. If you are using a different model then change the model path [here](https://github.com/QuickLearner171998/Retrosynthesis-Reaction-Pathway/blob/ea3ce4627a65a4ecac6f39a9f04606f56bae484a/utils.py#L24).
