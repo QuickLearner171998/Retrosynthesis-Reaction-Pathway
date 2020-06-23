@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{%block content %}
+	<div class="container">
+		<h1> Complete Pathway </h1>
+		<hr>
+		<h2> Product Molecule - {{ result.mol_name }}</h2>
+		<div>
+			<img src="{{result.mol_path }}" class="img-rounded" width=400 height="auto">
+		</div>
+		<h2> Complete breakdown pathway </h2>
+		<div>
+			<img src="{{result.pathway_path }}" class="img-rounded" width=800 height="auto">
+		</div>
+
+		<a href="{{ url_for('index') }}" class="btn btn-default">Back</a>
+	</div>
+
+{% endblock %}
